@@ -23,6 +23,11 @@ Patch2:		portaudio-pkgconfig-alsa.patch
 # Add some extra API needed by audacity
 Patch3:		debian-20161225-audacity-portmixer.patch
 Patch4:		portaudio-autoconf.patch
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	pkgconfig(alsa)
 BuildRequires:	pkgconfig(celt)
 BuildRequires:	pkgconfig(jack)
